@@ -136,7 +136,7 @@
 .canvas_open a span {
 	width: 30px;
 	height: 3px;
-	background: #FE354D;
+	background: var(--color-gold);
 	display: block;
 	margin: 6px 0px;
 }

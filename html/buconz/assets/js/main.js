@@ -598,6 +598,16 @@ if( $('.chart').length ) {
         });
     }
 
+    if ($('.offer-tab').length) {
+        $('.offer-tab').on('click', function() {
+            var target = $(this).data('offer');
+            $('.offer-tab').removeClass('active');
+            $(this).addClass('active');
+            $('.offer-panel').removeClass('active');
+            $('.offer-panel[data-offer-panel="' + target + '"]').addClass('active');
+        });
+    }
+
       
 });
 

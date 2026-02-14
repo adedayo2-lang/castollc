@@ -176,7 +176,7 @@ li {
     border-radius: 30px;
 	line-height: 15px;
 	transition: all 0.5s ease;
-    background-color: rgb(255, 94, 21);
+    background-color: gold;
 }
 .btn-white:hover{
 	box-shadow: 0 0 0 4em #ffffff inset, 0 5px 15px rgba(0, 0, 0, 0.1);
@@ -397,7 +397,7 @@ li {
 .header-socials ul li a i {
     width: 20px;
     height: 20px;
-    background-color: rgb(255, 94, 21);
+    background-color: gold;
     border-radius: 4px;
     text-align: center;
     line-height: 20px;
